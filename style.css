@@ -75,6 +75,7 @@ button:hover{
             position: absolute;
             width: 100%;
             z-index: 2;
+            padding: 5px 20px;
 }
 
 .blackimg{
@@ -86,6 +87,10 @@ button:hover{
             gap: 25px;
 }
 
+.logo{
+            font-size: 40px;
+            color: #fff;
+}
 
 .container .container-nav .links .sp > i{
             font-size: 30px;
@@ -1170,13 +1175,17 @@ section > .over{
             }
             .container .container-nav{
                         background-color: #fff;
-                        width: 110%;
-            }
-            .blackimg{
-                        display: grid;
+                        width: 100%;
             }
             .whiteimg{
                         display: none;
+            }
+            .blackimg {
+                        display: grid;
+            }
+            .logo {
+                        font-size: 40px;
+                        color: #000;
             }
             .container .container-nav .links .sp {
                         position: relative;
@@ -1211,7 +1220,7 @@ section > .over{
                         flex-direction: column;
             }
             .features .container ul li:hover .lay {
-                        height: 100%;
+                        height: 100vh;
                         width: 100%;
             }
             .features .container ul li .lay {
@@ -1357,7 +1366,7 @@ section > .over{
             }
 
             .container .container-nav .links .sp{
-                        width: 80px;
+                        
             }
             .container .container-nav .links .sp .iele {
                         visibility: visible;
